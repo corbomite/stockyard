@@ -1,0 +1,10 @@
+.mn_red a:hover, .mn_red_active, .mn_red_active a:hover{ padding-bottom:10px;} .mn_fictionpoetry a:hover, .mn_fictionpoetry_active, .mn_fictionpoetry_active a:hover{padding-bottom:10px;}	
+.mn_menagerie a:hover, .mn_menagerie_active, .mn_menagerie_active a:hover{padding-bottom:10px;}	
+.mn_choppingblock a:hover, .mn_choppingblock_active, .mn_choppingblock_active a:hover{padding-bottom:10px;}
+.mn_revue a:hover, .mn_revue_active, .mn_revue_active a:hover{padding-bottom:10px;}	
+.mn_galerie a:hover, .mn_galerie_active, .mn_galerie_active a:hover{padding-bottom:10px;}
+.mn_jungle a:hover, .mn_jungle_active, .mn_jungle_active a:hover{padding-bottom:10px;}
+#sidebar{padding-bottom: 30px;}
+#labelsesguts{float: left;}
+#search{font-size: 12px;vertical-align: middle; padding-top: 2px;}
+#brace{margin:-25px 0 0 5px;}

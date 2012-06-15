@@ -1,0 +1,213 @@
+/*
+
+THEME NAME:sy
+
+THEME URI:http://www.stockyardmagazine.com
+
+DESCRIPTION:Yes, we're doing this...again.
+
+AUTHOR: Theodore O. Nielsen, Esq. 
+
+VERSION:1.0
+
+*/
+
+* { margin:0; padding:0;}
+
+h1{color:#000; font-size:40px;font-family:Georgia,"Times New Roman",serif;margin: 5px 0 0 0; font-weight: normal;}
+h2{color:#000; font-size:30px; font-family:Georgia,"Times New Roman",serif;margin: 5px 0 0 0; font-weight: normal;}
+h3{color:#000; font-size:16px; font-family:Georgia,"Times New Roman",serif;margin: 5px 0 0 0; font-weight: normal;}
+a, a:visited {color:#990000; text-decoration:none;}
+a[rel ~='external'] {
+	padding-right: 18px;
+	background: transparent url(/images/icon_external.gif) no-repeat center right;
+}
+a:hover{color:#cc0000;}
+.black:visited{color: #333;}
+img {border:none}
+blockquote {background:transparent url(images/openquote.png) no-repeat scroll left top; border: none; margin-top:16px; margin-left: 10px; padding:10px 10px 10px 25px !important;}
+
+.importantLink{font-weight:bold;font-size:16px;}
+.left{float:left;}
+.sans{font-family: 'Lucida Grande', 'Lucida Sans', Tahoma, sans-serif;}
+.ten{font-size: 10px;}
+.fourteen{font-size: 14px;}
+.sixteen{font-size: 16px;}
+.lower{text-transform: lowercase;}
+.g690{width:650px; padding: 20px; float: left;}
+.toam, .red-period{color:#cc0000; font-size:3.0em; line-height:0px; font-family:Times;}
+.meta{font-size: 12px; line-height: normal; text-transform: lowercase; display: inline;}
+.addenda{font-size:10px; color:#666; font-family:Arial, Helvetica, sans-serif;display: block;}
+.black{color:#000;}
+.white{color:#fff;}
+.flat{margin: 0;}
+.subhead{margin: 0; font-style: italic;}
+.emdashed{padding-left: 10px; margin-top: 5px; text-align: justify;}
+.tophat {border-bottom: 1px dashed silver;}
+.ol_margin{margin-left:35px;}
+
+body{background:#ececec url(images/wallpaper.gif) repeat scroll 0 0; font-family:Georgia,'Times New Roman',Serif; font-size:12px; font-weight:normal; line-height:normal; text-align: left;}
+#site{clear:both; margin:0 auto; position:relative; width: 1000px;}
+#content{width:1000px;float:left; border-left: 2px solid #999; border-right: 2px solid #999; background: #fff;}
+
+#header{width:1000px; float: left; height: 44px; border-bottom: 4px solid black;}
+#headerSY{width: 40px; height: 40px; background: #000 url(images/sy.png) no-repeat center; float: left}
+#homeLink{height:40px;width:40px;position:absolute;top:0px;left:0px;text-indent:-9999px;}
+#navigation{background: #000; width:956px; margin-left: 4px; float: left; height: 40px;}
+
+#navigation ul{margin:13px 0 0 0; float: left; padding-left: 20px;}
+#main_navigation li{float:left; list-style-image:none; list-style-position:outside; list-style-type:none; color: #fff;}
+#main_navigation li a {color:#fff; font-size:14px; padding-right:15px; padding-left:15px; text-decoration:none; font-weight: bold;}
+
+.mn_red a:hover, .mn_red_active, .mn_red_active a:hover{border-bottom:4px solid #cc0000; padding-bottom: 11px;}	
+.mn_fictionpoetry a:hover, .mn_fictionpoetry_active, .mn_fictionpoetry_active a:hover{border-bottom:4px solid #99ee00; padding-bottom:11px;}	
+.mn_menagerie a:hover, .mn_menagerie_active, .mn_menagerie_active a:hover{border-bottom:4px solid #660099; padding-bottom:11px;}	
+.mn_choppingblock a:hover, .mn_choppingblock_active, .mn_choppingblock_active a:hover{border-bottom:4px solid #0371de; padding-bottom:11px;}
+.mn_revue a:hover, .mn_revue_active, .mn_revue_active a:hover{border-bottom:4px solid #717171; padding-bottom:11px;}	
+.mn_galerie a:hover, .mn_galerie_active, .mn_galerie_active a:hover{border-bottom:4px solid #66cccc; padding-bottom:11px;}
+.mn_jungle a:hover, .mn_jungle_active, .mn_jungle_active a:hover{border-bottom:4px solid #e38000; padding-bottom:11px;}
+
+@-moz-document url-prefix(){ .mn_red a:hover, .mn_red_active, .mn_red_active a:hover{ padding-bottom:10px;} .mn_fictionpoetry a:hover, .mn_fictionpoetry_active, .mn_fictionpoetry_active a:hover{padding-bottom:10px;}	
+.mn_menagerie a:hover, .mn_menagerie_active, .mn_menagerie_active a:hover{padding-bottom:10px;}	
+.mn_choppingblock a:hover, .mn_choppingblock_active, .mn_choppingblock_active a:hover{padding-bottom:10px;}
+.mn_revue a:hover, .mn_revue_active, .mn_revue_active a:hover{padding-bottom:10px;}	
+.mn_galerie a:hover, .mn_galerie_active, .mn_galerie_active a:hover{padding-bottom:10px;}
+.mn_jungle a:hover, .mn_jungle_active, .mn_jungle_active a:hover{padding-bottom:10px;}
+}
+
+#homeMastheadBox{width: 310px; float: right; }
+#homeMasthead{height: 150px; float:left; width:inherit; background: #000 url(images/masthead.png) no-repeat bottom center;}
+#homeMastheadSmall{height:73px; float:left; width:inherit; background: #000 url(images/masthead_small.png) no-repeat bottom center;}
+#searchBox{width:inherit; height:33px; float: left; background: black; margin-top: 4px;}
+.submit{margin-top: 6px;}
+#search{background: black; border:1px solid white; width:295px; height: 20px; margin:5px; color: white; line-height: 10px;}
+
+#rotator{height:375px; width: 670px; float:left; margin: 10px;}
+#rotatorBlurbHolder{width:167px; float:left;}
+.rotatorBlurb{height: 86px; width:152px; float: left; border-left: 5px solid #666; margin-bottom: 10px; clear: both; padding-left: 10px; overflow: hidden; display: block;}
+.rotatorBlurb:hover{border-left: 5px solid #cc0000;}
+#picHolder{width:491px; height: 276px; float:right; overflow: hidden;}
+.rotatorPic{width: 491px; height: 276px; float: right;}
+#rotatorInfo{height: 86px; width: 493px; float: right; margin-top: 10px;}
+#rotatorInfo p{text-align: justify; margin:5px 0 0 50px; font-size:14px; line-height:1.5em;}
+#brace{position:absolute; margin:250px 0 0 178px; z-index:1000;}
+
+#guts{float:left;width:651px; margin: 0 0 0 20px;}
+.bounding{float:left; margin-top: 20px;width:651px;}
+.section{width:325px; float:left;}
+.section_guts{width:305px; border-top:5px solid #666; margin-right:20px; float: left;}
+.picture_frame{float:left; height:100px; width:100px; background:black; overflow:hidden; margin: 5px 15px 15px 0px;}
+.contentSeparator{margin-bottom:40px;}
+
+#sidebar{width:250px; margin:30px 0 0 10px; float: left; border-left:1px dotted silver;}
+.box{width:250px; border-top:4px solid #cc0000; padding:5px 10px 0 0; margin:0 20px 30px 20px}
+.box h2{margin: 0 0 15px 0; font-size:21px; text-align: center}
+
+#footer{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; font-size:11px;float:left; border-bottom: 2px solid #999; background: #fff;}
+#foobar{background:#000 url(images/foobar.png) center no-repeat !important; height:80px; width: 1000px; text-indent:-9999px; margin-bottom: 20px;}
+#labels{width:250px; float:left;margin-top:5px;}
+#labels p{letter-spacing:.2em; text-align:right; padding: 0 10px 2px 0;}
+#labelsesguts{width:750px; float:left;margin-top:5px;}
+#labelsesguts p{text-align:left; padding:0 10px 2px 0;}
+#sybranding{text-align:center; margin: 0 auto; margin-bottom: 10px; float: left; width:1000px;line-height: 18px;}
+
+#galleryshow_headline{width:525px; margin:25px 0 5px 40px;font-size:20px; text-align:left; float:left;}
+#galleryshow_content{ width:100%; float:left;}
+#galleryshow_artist{ color:#cc0000; text-transform:lowercase;font-size:40px; float:left; width:530px;}
+#galleryshow_art{width:500px;}
+#galleryshow_info{float:left; margin:15px 0; padding: 10px 0; font-size:14px; color:#333; border-top:1px dashed silver; border-bottom:1px dashed silver;}
+.schindler {font-family: "Lucida Grande", sans-serif; font-size: 10.4px; line-height: 1.5em;color:#111111;padding: 3px 16px 3px 0;margin-bottom:20px;border-bottom:1px dashed silver;}
+.schindler p{margin:5px 0 5px 0; font-family:Georgia,"Times New Roman";font-size:12px;line-spacing:1.3em;}
+.list_title{font-size:14px;font-family:Georgia;font-weight:light;margin-top:3px;}
+#lbOverlay {position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background-color: #000; cursor: pointer;}
+#lbCenter, #lbBottomContainer {position: absolute; z-index: 9999; overflow: hidden; background-color: #fff;}
+.lbLoading {background: #fff url(images/loading.gif) no-repeat center;}
+#lbImage {position: absolute; left: 0; top: 0; border: 10px solid #fff; background-repeat: no-repeat;}
+#lbPrevLink, #lbNextLink {display: block; position: absolute; top: 0; width: 50%; outline: none; }
+#lbPrevLink {left: 0;}
+#lbPrevLink:hover {background: transparent url(images/prevlabel.gif) no-repeat 0 15%;}
+#lbNextLink {right: 0;}
+#lbNextLink:hover {background: transparent url(images/nextlabel.gif) no-repeat 100% 15%;}
+#lbBottom {font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;font-size: 10px;color: #666;line-height: 1.4em;text-align: left;border: 10px solid #fff;border-top-style: none;}
+#lbCloseLink {display: block;float: right;width: 66px;height: 22px; background: transparent url(images/closelabel.gif) no-repeat center;margin: 5px 0;outline: none;}
+#lbCaption, #lbNumber {margin-right: 71px;}
+#lbCaption {font-weight: bold;}
+
+#article{float:left; width:630px; margin:30px 30px 10px 30px; line-height:1.7em; color:#222; text-align:justify;}
+#top_photo{float:left; width:100%; text-align:center;  margin:0 0 15px 0;}
+#top-photocredit{font-family:"Lucinda Grande", Verdana, Arial, Helvetica, sans-serif; font-size:10px; text-align: left; color:#666;}
+#tawdryDetails{width:100px; padding: 0 0 10px 10px; margin:0 0 10px 20px; font-size:11px; font-family:sans-serif; border-left:1px solid silver; float:right;}
+#tags{list-style: none; border-left: 1px solid #e38000; float: left; margin:10px 0 0 5px;}
+#tags li{padding-left: 10px; border-left: 5px solid #e38000; margin:10px 5px 0 0;}
+#section-break{width:600px; margin-top:5px; margin-bottom:5px; font-size:1.8em; text-align:center;}
+.drop, .dropblack{color:#cc0000; float:left; font-size:8.0em; line-height:0.8em; margin:0 10px -1px 0; width:auto;}	
+.dropblack{color:#000; font-size:6.0em;}
+.sy_pb_fb, .sy_pb_digg, .sy_pb_twitter, .sy_pb_stumble, .sy_pb_email{float:left; height:15px; width:15px; margin-left:5px; text-indent: 10000px; display:block; overflow:hidden;}
+.sy_pb_fb{background:transparent url(images/social.gif) no-repeat scroll 0px -16px;}
+.sy_pb_fb:hover{background:transparent url(images/social.gif) no-repeat scroll 0px 0px; }  
+.sy_pb_digg{background:transparent url(images/social.gif) no-repeat scroll 0px -144px;}
+.sy_pb_digg:hover{background:transparent url(images/social.gif) no-repeat scroll 0px -128px;}
+.sy_pb_twitter{background:transparent url(images/social.gif) no-repeat scroll 0px -112px;}
+.sy_pb_twitter:hover{background:transparent url(images/social.gif) no-repeat scroll 0px -96px;}    
+.sy_pb_stumble{background:transparent url(images/social.gif) no-repeat scroll 0px -80px;}
+.sy_pb_stumble:hover{background:transparent url(images/social.gif) no-repeat scroll 0px -64px;}      
+.sy_pb_email{background:transparent url(images/social.gif) no-repeat scroll 0px -32px;}
+.sy_pb_email:hover{background:transparent url(images/social.gif) no-repeat scroll 0px -32px;}
+#article p{margin: 1em 0;}
+.left_photo_article, .left_photo{float:left; display:table;clear:none;width:275px;padding: 15px 0 10px 0; margin:5px 20px 0 0;border-top: 4px double silver; text-align:center;}
+.left_photo{ padding:15px 0; margin:25px 25px 0 45px;}
+.photo_caption{color:#666666; margin-top:5px; margin-bottom:-8px; font-family:"Lucinda Grande", Verdana, Arial, Helvetica, sans-serif;font-size:10px; width:100%; text-align:center;}
+#sng_navigation{color:#000; text-align:right; font-family:"Lucida Grande", Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size:14px; border-top:1px solid silver; margin-top:10px; padding-top:5px;}
+#sng_navigation a{ color:#009999; text-decoration:underline; }
+
+.comment_box{margin-top:15px;margin-bottom:15px;padding:10px;padding-top:5px;border-left:5px solid black;width:580px;background-color:#f5f5f5}
+.comment_box:hover{background-color:#efefef}
+.comment_editor{border-left:5px solid#cc0000}
+#discuss_header{font-size:20px;width:630px;padding-bottom:20px;border-bottom:5px double silver;float:left}
+#discuss_container{float:left;width:630px;margin:25px 0px 10px 0px;margin-left:32px}
+#discuss_byline{font-family:'Lucida Sans',Tahoma,Sans-serif;font-size:12px;text-transform:lowercase}
+ul.d-list{list-style-type:none;list-style-image:none;list-style:none;padding-left:0px;float:left}
+ul.children{list-style-type:none;list-style-image:none;list-style:none}
+ul.children li.depth-2 div.comment_box{width:580px}
+ul.children li.depth-3 div.comment_box{width:530px}
+.discuss_title,.discuss_title-editor{font-size:12px;color:black;margin-top:15px;padding:3px;padding-left:0px;border-bottom:1px solid silver;max-width:90%;text-transform:lowercase}
+.discuss_reply{width:100%;text-align:right;border-top:1px solid silver;margin-top:10px;padding-top:5px}
+#discuss_locked{background:url(images/lock.png)no-repeat scroll 0 0;height:128px;width:128px;margin:0 auto}
+#discuss_comment_bubblelarge{background:url(images/comment_bubble.png)no-repeat scroll 0 0;height:128px;width:128px;margin:0px;margin:0 auto}
+#discuss_locked-comment{width:500px;font-size:24px;line-height:1.2em;text-align:center;margin:0 auto;margin-top:35px}
+#discuss_button{margin-top:20px;margin-bottom:20px;margin-left:-20px;cursor:pointer;background:transparent url(images/submitcomment_button.png)no-repeat scroll 0 0;color:#FFFFFF;display:block;float:left;height:0;line-height:10000px;overflow:hidden;padding-top:20px;width:150px;border:1px solid silver}
+#discuss_button:hover{background:transparent url(images/submitcomment_button.png)no-repeat scroll 0-20px}
+#symposium{font-size:20px;color:#999999;margin:0 auto}
+#discuss_reply-title{font-family:Georgia,"Times New Roman","Times",serif;font-size:20px;color:#cc0000}
+#discuss_reply-box{width:600px;max-width:600px;padding:10px;float:left;font-size:12px;border:2px solid #666;font-family:'Lucinda Grande',Verdana,Arial,Helvetica,sans-serif}
+#discuss_reply-box:focus,.discuss_input-boxes:focus{border:2px solid#cc0000;outline:none}
+#discuss_input-container{width:520px;float:left}
+.discuss_input-tag{font-family:"Lucinda Grande",Verdana,Arial,Helvetica,sans-serif;float:left}
+.discuss_input-boxes{margin-bottom:5px;padding:3px;float:left;border:2px solid#666;font-family:'Lucinda Grande',Verdana,Arial,Helvetica,sans-serif;text-align:left;float:left}
+
+#mainIssue{float: left;}
+#mainIssueBar{width:236px; float:left; border-bottom:5px solid #666;}
+#mainIssuePic{width:236px; height: 307px; float:left; margin: 10px 0;}
+#mainIssueContent{width:226px;padding-left:10px; float:left; min-height:307px;}
+#mainIssueContinued{width: 472px; float:left;}
+#comingAttractions{float:left; width:100%; padding-top:20px; font-style:italic; font-size: 14px; text-align:center; color: #666;}
+#priorIssues{width:287px; float:left; margin:10px 0 0 15px; padding-left: 5px; border-left:1px dotted silver;}
+.priorIssue{margin-bottom: 20px; float:left; padding: 10px; border-bottom: 1px dotted silver;}
+.priorIssue:hover{background: #ececec;}
+.priorIssuePic{width:85px; height: 110px; background-color: #000; float:left;}
+.priorIssueContent{width:165px; float:left;}
+#skyscraper{width:160px; height:600px; ; margin: 20px;float:left;}
+
+#editorsAbout{background: url(images/editors_about.jpg) no-repeat scroll 0 0; height:380px; margin-left:20px; margin-top:10px;float:left;width:950px;}
+
+#fourohfour_fin{margin-bottom:50px; background: url(images/fin.png) no-repeat scroll 0 0; height:327px; width:511px; float:left;}
+#fourohfour_text{font-size:14px; line-height:1.5em; color:#222222; text-align:justify;}
+
+.form-label{width:150px !important;}
+.form-label-left{width:150px !important;}
+.form-line{padding:10px;}
+.form-label-right{width:150px !important;}
+.form-all li{ list-style: none;}
+.form-all{width:400px; color:#000000 !important; font-family:Verdana; font-size:14px;}
+.form-required{color:red;}
+.form-submit-button, .form-submit-reset, .form-submit-print{ font-family: "Trebuchet MS"; font-size: 11px; font-weight:normal; color:#333333; border:1px #c6c7ca solid; background: #e4e4e4; padding: 3px;}
