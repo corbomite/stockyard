@@ -1,3 +1,4 @@
 source :rubygems
+gem 'rack-contrib'
 
-gem 'sinatra'
+gem 'shotgun', :group => :development
